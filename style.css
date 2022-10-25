@@ -14,6 +14,7 @@
 }
 .Real{
     border: solid 5px var(--primary);
+    border-radius: 7px;
     text-align: center;
     color: #FFC1CC;
     width: 40%;
@@ -25,6 +26,7 @@
 
 .Stage{
     border: solid 5px var(--primary);
+    border-radius: 7px;
     text-align: center;
     color: #FFC1CC;
     width: 40%;
@@ -32,6 +34,7 @@
     font-size: 50px;
     margin: auto;
     margin-top: 65px;
+    display: none;
 }
 
 .Reveal{
@@ -40,16 +43,18 @@
     
 }
 
-.Next{
+.Button{
     text-align: center;
    padding: 10px;
+
    
 }
 
-button{
+Button{
     color: white;
     background-color: #1A5653;
     padding: 7px;
+    text-align: center;
 }
 /* make the format of the card so u can see it, adjust sizing and placement using margins, padding, and more */
 /* *{
@@ -80,7 +85,7 @@ body{
 /* create the rotattion */
 /* .card__inner.is-flipped{
     transform: rotateY(180deg);
-} */ */
+} */ 
 
 /* .card__face{
 position: absolute;
