@@ -1,3 +1,6 @@
+
+window.alert(" Welcome to Guess the Rapper! For this game you will see a rappers real name and try to guess their stagename. Once you have guessed what their stage name is, click the 'Reveal' button to reveal the answer. Then click the 'Next' button to get a new rapper. Good Luck!");
+
 // first i have to list out the boxes of names and the buttons
 
 const real = document.querySelector('.Real');
@@ -26,8 +29,9 @@ let data = Object.entries(person)
 let personName = ''
 
 function getRandomPerson(){
-    personName = data[Math.floor(Math.random() * data.length)][0]
-    real.innerHTML = `<h3>${personName}</h3>`;
+    personName = data[Math.floor(Math.random() * data.length)]
+    real.innerHTML = `<h3>${personName[0]}</h3>`;
+    stage.innerHTML = `<h3>${personName[1]}</h3>`;
 }
 
 getRandomPerson()
@@ -37,6 +41,6 @@ revealbutton.addEventListener('click', function(){
 });
 
 nextbutton.addEventListener('click', function(){
-    
+    getRandomPerson()
 });
 
