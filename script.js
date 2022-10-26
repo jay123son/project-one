@@ -41,6 +41,7 @@ revealbutton.addEventListener('click', function(){
 });
 
 nextbutton.addEventListener('click', function(){
+    stage.style.display = 'none';
     getRandomPerson()
 });
 
