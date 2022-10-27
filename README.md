@@ -13,11 +13,11 @@ Once the game is opened you will receive an alert that explains how to play. Whe
 I love music and i'm constantly listening to it. The more I listen, The more I want to learn about the artist, and learinging their real names is a good start!
 
 ---
-<img width="1311" alt="Guess the Rapper!" src="https://user-images.githubusercontent.com/114092414/198393309-6d02fd9a-b2df-48e4-afc1-a70372067ec4.png">
+
 
 ## Play 'Guess the Rapper!'
 
-
+<img width="1311" alt="Guess the Rapper!" src="https://user-images.githubusercontent.com/114092414/198393309-6d02fd9a-b2df-48e4-afc1-a70372067ec4.png">
 
 [Play the Game](https://jay123son.github.io/project-one/)
 
