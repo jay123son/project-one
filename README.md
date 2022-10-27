@@ -15,7 +15,7 @@ I love music and i'm constantly listening to it. The more I listen, The more I w
 ---
 ## Play 'Guess the Rapper!'
 
-![Guess the Rapper](Guess the Rapper!.png)
+
 
 [Play the Game](https://jay123son.github.io/project-one/)
 
@@ -34,3 +34,8 @@ I love music and i'm constantly listening to it. The more I listen, The more I w
 * add images of eachr person in the results tab.
 * add more artists.
 * try to make it look  more professional.
+
+
+----
+
+## Links!
