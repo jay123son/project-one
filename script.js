@@ -44,4 +44,21 @@ nextbutton.addEventListener('click', function(){
     stage.style.display = 'none';
     getRandomPerson()
 });
+// add elements needed for a score bord
 
+let add = document.querySelector('.add');
+let remove = document.querySelector('.sub');
+
+let int = document.querySelector('.number');
+
+let integer = 0;
+
+add.addEventListener('click', function(){
+    integer += 1;
+    int.innerHTML = integer;
+})
+
+remove.addEventListener('click', function(){
+    integer -= 1;
+    int.innerHTML = integer;
+})

@@ -15,6 +15,7 @@ body{
     text-align: center;
     color: var(--secondary);
     -webkit-text-stroke: 3px #1A5653;
+    font-size: 45px;
 }
 .Real{
     border: solid 5px var(--secondary);
@@ -64,6 +65,46 @@ Button{
     padding: 7px;
     text-align: center;
 }
+
+.container{
+    height: 125px;
+    width: 80px;
+    border: 7px solid #68BBE3;
+    margin-left: 10px;
+    background-color: #107869;
+    color: #F3F3F3;
+
+
+}
+
+.Score{
+    text-align: center;
+    color: #1A5653;
+    -webkit-text-stroke: 1px #107869;
+    
+}
+
+.number{
+    height: 25px;
+    width: 50px;
+    margin: 25px auto;
+    margin-top: 30px;
+    border: 2px var(--secondary);
+    text-align: center;
+}
+
+.add{
+    margin-left: 13px;
+}
+
+.sub{
+    margin-left: 3px;
+}
+.scoreboard{
+    position: fixed; top: 25%; left: 20px; 
+    margin-left: 10%;
+}
+
 /* make the format of the card so u can see it, adjust sizing and placement using margins, padding, and more */
 /* *{
     margin: 0;
