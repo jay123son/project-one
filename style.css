@@ -69,9 +69,9 @@ Button{
 .container{
     height: 125px;
     width: 80px;
-    border: 7px solid #68BBE3;
+    border: 7px solid #1A5653;
     margin-left: 10px;
-    background-color: #107869;
+    background-color: var(--secondary);
     color: #F3F3F3;
 
 
@@ -91,6 +91,7 @@ Button{
     margin-top: 30px;
     border: 2px var(--secondary);
     text-align: center;
+    
 }
 
 .add{
@@ -98,7 +99,7 @@ Button{
 }
 
 .sub{
-    margin-left: 3px;
+    margin-left: 2px;
 }
 .scoreboard{
     position: fixed; top: 25%; left: 20px; 
