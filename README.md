@@ -18,6 +18,7 @@ I love music and i'm constantly listening to it. The more I listen, The more I w
 ## Play 'Guess the Rapper!'
 
 <img width="1311" alt="Guess the Rapper!" src="https://user-images.githubusercontent.com/114092414/198393309-6d02fd9a-b2df-48e4-afc1-a70372067ec4.png">
+<img width="549" alt="Screen Shot 2022-10-28 at 9 26 39 AM" src="https://user-images.githubusercontent.com/114092414/198609788-505b4e7e-41ad-4e4b-a15d-536cf2c4cc25.png">
 
 [Play the Game](https://jay123son.github.io/project-one/)
 
