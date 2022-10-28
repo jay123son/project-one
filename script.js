@@ -28,10 +28,16 @@ let data = Object.entries(person)
 
 let personName = ''
 
+let count = 1
+
+
+
+
 function getRandomPerson(){
     personName = data[Math.floor(Math.random() * data.length)]
     real.innerHTML = `<h3>${personName[0]}</h3>`;
     stage.innerHTML = `<h3>${personName[1]}</h3>`;
+    count++
 }
 
 getRandomPerson()
@@ -42,8 +48,45 @@ revealbutton.addEventListener('click', function(){
 
 nextbutton.addEventListener('click', function(){
     stage.style.display = 'none';
-    getRandomPerson()
+    if (count=== 10){
+        real.innerHTML = `<h3>Game</h3>`;
+        stage.innerHTML = `<h3>Over</h3>`;
+        stage.style.display = 'block';
+
+
+    } else{
+        getRandomPerson()
+    }
+   
 });
+
+// end game section-----------------------------------------------
+
+// var time_limit = 30;
+
+// var time_out = setInterval(() => {
+
+//   if(time_limit == 0) {
+    
+//     $('#timer').html('Game Over');
+        
+//   } else {
+    
+//     if(time_limit < 10) {
+//       time_limit = 0 + '' + time_limit;
+//     }
+    
+//     $('#timer').html('00:' + time_limit);
+    
+//     time_limit -= 1;
+    
+//   }
+
+// }, 1000);
+
+
+// end game section ----------------------------------------------
+
 // add elements needed for a score bord
 
 let add = document.querySelector('.add');
@@ -54,11 +97,15 @@ let int = document.querySelector('.number');
 let integer = 0;
 
 add.addEventListener('click', function(){
+    if (integer < count){
     integer += 1;
-    int.innerHTML = integer;
+    int.innerHTML = `${integer} of ${count}`;
+ }
 })
 
 remove.addEventListener('click', function(){
+    if (integer > -count){
     integer -= 1;
-    int.innerHTML = integer;
+    int.innerHTML = `${integer} of ${count}`;
+    }
 })

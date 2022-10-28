@@ -106,6 +106,10 @@ Button{
     margin-left: 10%;
 }
 
+/* #timer {
+    height: 100vh;
+    font-size: 10vmin;
+  } */
 /* make the format of the card so u can see it, adjust sizing and placement using margins, padding, and more */
 /* *{
     margin: 0;
